@@ -247,6 +247,10 @@ margin-right: 32px;
 width: 642.11px;
 }
 
+.descripcion-impuestos button {
+    margin-right: 0px; 
+}
+
 
 /* Asesoría financiera   */
 .descripcion-asesoria-titulo{
@@ -346,6 +350,9 @@ margin-right: 32px;
 width:642.11px;
 }
 
+.descripcion-impuestos button {
+    margin-right: 0px; 
+}
 
 /* Asesoría financiera   */
 .descripcion-asesoria-titulo{
@@ -443,6 +450,10 @@ padding-right: 82px;
 margin-left: 32px;
 margin-right: 32px;
 width: 521.13px;
+}
+
+.descripcion-impuestos button {
+    margin-right: 0px; 
 }
 
 
@@ -554,6 +565,10 @@ margin-right: 32px;
 width: 494.88px;
 }
 
+.descripcion-impuestos button {
+    margin-right: 0px; 
+}
+
 
 /* Asesoría financiera   */
 .asesoria-financiera-servicios {
@@ -639,6 +654,10 @@ ul {
         width: 399.41px;
         margin-right: 0px;
     }
+
+    .descripcion-impuestos button {
+        margin-right: 0px; 
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -660,6 +679,10 @@ ul {
     .descripcion-asesoria-financiera p {
         width: 368.39px;
         margin-right: 0px;
+    }
+
+    .descripcion-impuestos button {
+        margin-right: 0px; 
     }
 }
 
@@ -814,6 +837,10 @@ ul {
     margin-left: 32px;
     margin-right: 32px;
     width: 400px;
+}
+
+.descripcion-impuestos button {
+    margin-right: 0px; 
 }
 
 /* Asesoría financiera  */
