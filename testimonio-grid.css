@@ -1,0 +1,23 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 49px 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header-testimonio header-testimonio header-testimonio"
+    "imagen-principal-testimonio imagen-principal-testimonio imagen-principal-testimonio"
+    "testimonio-clientes_ testimonio-clientes_ testimonio-clientes_"
+    "formulario formulario formulario"
+    "copyright_ copyright_ copyright_";
+}
+
+.header-testimonio { grid-area: header-testimonio; }
+
+.imagen-principal-testimonio { grid-area: imagen-principal-testimonio; }
+
+.testimonio-clientes_ { grid-area: testimonio-clientes_; }
+
+.formulario { grid-area: formulario; }
+
+.copyright_ { grid-area: copyright_; }
+
