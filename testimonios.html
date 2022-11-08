@@ -6,16 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonios</title>
 
-    <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
-    <link rel="stylesheet" href="/css/media-queries-testimonio.css">
-    <link rel="stylesheet" href="/css/style-testimonio.css">
-    <link rel="stylesheet" href="/css/testimonio-grid.css">
+    
+    <link rel="stylesheet" href="style-testimonio.css">
+    <link rel="stylesheet" href="media-queries-testimonio.css">
+    <link rel="stylesheet" href="testimonio-grid.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header-testimonio">
+            <header>
+                <input type="checkbox" name id="toggler-service">
+                <label for="toggler-service" class="fas fa-bars"></label>
+
+                <a href="#" class="logo">
+                    MH
+                    <span>.</span>
+                </a>
+                
+                    <nav class="navbar">
+                            <a href="index.html">Inicio</a>
+                            <a href="#">Sobre nosotros</a>
+                            <a href="servicios.html">Servicios</a>
+                            <a href="testimonio.html">Testimonios</a>
+                            <a href="contact.html">Contáctenos</a>
+                        </ul>
+                    </nav>
+                </div>
+                <!--
+                <div class="cotizacion">
+                    <button>Consigue una cotización</button>
+                </div>-->
+            </header>
+        </div>
+
+        <div class="imagen-principal-testimonio">
+            <section class="hero">
+                <h5>Qué dicen mis clientes</h5>
+                <h2>Testimonios</h2>
+            </section>
+        </div>
+
+        <div class="testimonio-clientes_">
+            <div class="amanda">  
+                <div class="cliente-testimonio">
+                    <section class="Amanda-lee">
+                        <i></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <span>Amanda Lee</span>
+                        <br><br>
+                        <p>CEO & Founder Crix</p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="adam">  
+                <div class="cliente-testimonio">
+                    <section class="Adam-cheise">
+                        <i></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                        <span>Adam Cheise</span>
+                        <br><br>
+                        <p>Director at Dynamic</p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="adam">  
+                <div class="cliente-testimonio">
+                    <section class="Adam-cheise">
+                        <i></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <span>Adam Cheise</span>
+                        <br><br>
+                        <p>Director at Dynamic</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="formulario-testimonio">
+            <div class="image-formulario">
+                <img src="" alt="">
+            </div>
+
+            <div class="formulario">
+                <h2 class="cotizacion-formulario">Pide una Cotización</h2>
+                <form action="">
+                    <input type="text" placeholder="Nombre*" id="nombre" name="nombre" required>
+                    <input type="email" placeholder="Gmail*" id="email" name="email" required>
+                    <input type="number" placeholder="Número Telefonico*" id="numeroTelefono" name="numeroTelefono" required>
+                    <input type="number" placeholder="Número de empleados*" id="empleados" name="empleados" required>
+                    <input type="number" placeholder="Número de facturas entrantes*" id="facturasEntrantes_" name="facturasEntrantes_" required>
+                    <input type="number" placeholder="Número de facturas emitidas*" id="facturasEmitidas_" name="facturasEmitidas_" required>
+                    <input class="cotizacion-gratis-testimonio" id="enviarCorreo" type="submit" value="Consigue una cotización">
+                    <br><br>
+                    *la cotización es gratis
+                </form>
+            </div>
+        </div>
+
+        <div class="copyright_">
+            <p>Copyright © 2022 Contador | Desarrollada por Consultora Mario Hernandez</p>
+        </div>
+    </div>
 </body>
 </html>
