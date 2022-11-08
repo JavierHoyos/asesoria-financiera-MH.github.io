@@ -1,0 +1,294 @@
+:root {
+    --orange: #e66e2e; 
+    --white: #f7f8f8;
+    --black: #000F23;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 100vw;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--orange);
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header #toggler-service {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.hero {
+    background: url(/img/pexels-kampus-production-8441811.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: var(--white);
+    font-size: 26.416px;
+    background-color: #7a7672;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 54vh;
+}
+
+.contact-details {
+    margin: 10px;
+}
+
+#contact-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details span {
+    color: #000F23;
+    font-size: 18px;
+}
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span {
+    font-size: 32px;
+    color: #000F23;
+    font-family: Montserrat, sans-serif;
+}
+
+#contact-details .details h2 {
+    font-size: 37px;
+    color: #000F23;
+    font-family: Montserrat, sans-serif;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i {
+    font-size: 20px;
+    padding-right: 22px;
+}
+
+#contact-details .details p {
+    margin: 0;
+    font-size: 19.5px;
+    color: #5D7280
+}
+
+
+/* formulario */
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    color: #5D7280;
+    font: 13.68px 'Open Sans', sans-serif;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.cotizacion-formulario {
+    text-align: center;
+    color: #000F23;
+    font: 23.712px Monserrat, sans-serif;
+    font-weight: bolder;
+}
+
+
+form input {
+    background-color: #fafafa;
+    padding: 10.26px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotizacion-gratis {
+    fill: var(--white);
+    color: var(--white);
+    background-color: var( --orange);
+    box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 35px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    width: 280px;
+    font-size: 18.40px;
+}
+
+/* Redes sociales  */
+
+.follow h4 {
+    font-size: 32px;
+    margin-top: 34px;
+    margin-bottom: 35px;
+}
+
+.follow .icon {
+    margin-bottom: 25px;
+}
+
+.follow .icon i {
+    font-size: 32px;
+    padding-right: 22px;
+}
+
+/* Address Contact */
+
+.address-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-contact .map {
+    width: 100%;
+    height: 400px;
+}
+
+.address-contact .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* formulario-2 */
+
+.request-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-2 {
+    color: #5D7280;
+    font: 13.68px 'Open Sans', sans-serif;
+    background-color: #5D7280;
+    padding: 40px 20px;
+}
+
+.cotizacion-formulario-2 {
+    text-align: center;
+    color: #fff;
+    font: 23.712px Monserrat, sans-serif;
+    font-weight: bolder;
+}
+
+
+form input {
+    background-color: #fafafa;
+    padding: 10.26px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+
+.formulario-2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotizacion-gratis {
+    fill: var(--white);
+    color: var(--white);
+    background-color: var( --orange);
+    box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 35px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    width: 280px;
+    font-size: 18.40px;
+}
+
+.copyright {
+    text-align: center;
+    color: #666;
+}
+
+

@@ -1,0 +1,108 @@
+:root {
+    --orange: #e66e2e; 
+    --white: #f7f8f8;
+    --black: #000F23;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 100vw;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--orange);
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header #toggler {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.hero {
+    background: url(/img/pexels-kampus-production-8441811.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+
+ul {
+    margin-bottom: 20px;
+    width: 700px;
+}
+ul li {
+    list-style-type: circle;
+    color: #666;
+    text-align: justify;
+}
+
+
+.descripcion-contabilidad p,
+.descripcion-impuestos p,
+.descripcion-asesoria-financiera p {
+    color: #666;
+}
+
+
+
+
+

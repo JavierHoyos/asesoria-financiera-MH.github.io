@@ -1,0 +1,1209 @@
+@media screen and (max-width: 3000px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    
+
+    
+
+
+/* Servicios impuestos  */
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-left: 290px;
+}
+
+.descripcion-impuestos p {
+    margin-right: 300px;
+}
+
+.descripcion-impuestos button {
+    margin-right: 300px;
+}
+
+
+/* Asesoría financiera   */
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+
+
+
+ul {
+    width: 380px;
+}
+}
+
+@media screen and (min-width: 2560px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    .image-contabilidad img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 606px;
+    }
+
+    
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 606px;
+    width: 642.11px;
+}
+
+.descripcion-contabilidad button {
+    margin-right: 606px;
+}
+
+
+/* Servicios impuestos  */
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+    margin-left: 606px;
+}
+
+
+.descripcion-impuestos p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 606px;
+width: 642.11px;
+}
+
+.descripcion-impuestos button {
+    margin-right: 606px;
+}
+
+
+/* Asesoría financiera   */
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 606px;
+    margin-right: 0;
+}
+
+
+.descripcion-asesoria-financiera p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 606px;
+width: 642.11px;
+}
+
+.descripcion-asesoria-financiera button {
+    margin-right: 606px;
+}
+
+
+ul {
+    width: 480px;
+}
+}
+
+@media screen and (max-width: 1440px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    .image-contabilidad img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 642.11px;
+}
+
+
+/* Servicios impuestos  */
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-impuestos p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 642.11px;
+}
+
+
+/* Asesoría financiera   */
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-asesoria-financiera p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 642.11px;
+}
+
+ul {
+    width: 480px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    .image-contabilidad img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width:642.11px;
+}
+
+
+/* Servicios impuestos  */
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-impuestos p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width:642.11px;
+}
+
+
+/* Asesoría financiera   */
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-asesoria-financiera p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width:642.11px;
+}
+
+ul {
+    width: 480px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    .image-contabilidad img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 521.13px;
+}
+
+
+/* Servicios impuestos  */
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-impuestos p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 521.13px;
+}
+
+
+/* Asesoría financiera   */
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-asesoria-financiera p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 521.13px;
+}
+
+ul {
+    width: 330px;
+}
+}
+
+@media screen and (max-width: 980px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+    .contabilidad-servicios {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .descripcion-contabilidad-titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        font-size: 24.416px;
+        margin-top: 40px;
+        background-color: var(--white);
+        padding: 25px;
+    }
+
+    .image-contabilidad img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 494.88px;
+}
+
+
+/* Servicios impuestos  */
+
+.impuestos-servicios {
+    width: 100vw;
+    padding: 0;
+}
+
+.descripcion-impuestos-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-impuestos p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 494.88px;
+}
+
+
+/* Asesoría financiera   */
+.asesoria-financiera-servicios {
+    width: 100vw;
+    padding: 0;
+}
+
+.descripcion-asesoria-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 24.416px;
+    margin-top: 40px;
+    background-color: var(--white);
+    padding: 25px;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+
+.descripcion-asesoria-financiera p {
+margin-bottom: 52px;
+padding-left: 82px;
+padding-right: 82px;
+margin-left: 32px;
+margin-right: 32px;
+width: 494.88px;
+}
+
+ul {
+    width: 180px;
+}
+}
+
+@media screen and (max-width: 820px) {
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler-service:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .hero h5 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .descripcion-contabilidad p {
+        width: 399.41px;
+        margin-right: 0px;
+    }
+
+    .descripcion-impuestos p {
+        width: 399.41px;
+        margin-right: 0px;
+    }
+
+    .descripcion-asesoria-financiera p {
+        width: 399.41px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .descripcion-contabilidad p {
+        width: 368.39px;
+        margin-right: 0px;
+    }
+
+    .descripcion-impuestos p {
+        width: 368.39px;
+        margin-right: 0px;
+    }
+
+    .descripcion-asesoria-financiera p {
+        width: 368.39px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+     /* Contabilidad  */
+
+.contabilidad-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-contabilidad img {
+    margin-right: 0;
+    width: 400px;
+    margin-left: 0;
+}
+
+
+.descripcion-contabilidad {
+    width: 100vw;
+}
+
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 520px;
+}
+
+/* Impuestos servicios */
+
+.impuestos-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+.image-impuestos img {
+    margin-right: 0;
+    width: 400px;
+    margin-left: 0;
+}
+
+.descripcion-impuestos {
+    width: 100vw;
+}
+
+.descripcion-impuestos p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 520px;
+}
+
+/* Asesoría financiera  */
+
+.asesoria-financiera-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.descripcion-asesoria-financiera {
+    width: 100vw;
+}
+
+.descripcion-asesoria-financiera p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 520px;
+}
+
+
+ul {
+    width: 300px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 87%;
+    }
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+.contabilidad-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-contabilidad img {
+    margin-right: 0;
+    width: 300px;
+    margin-left: 0;
+}
+
+
+.descripcion-contabilidad {
+    width: 100vw;
+}
+
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 400px;
+}
+
+/* Impuestos servicios */
+
+.impuestos-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+.image-impuestos img {
+    margin-right: 0;
+    width: 400px;
+    margin-left: 0;
+}
+
+.descripcion-impuestos {
+    width: 100vw;
+}
+
+.descripcion-impuestos p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 400px;
+}
+
+/* Asesoría financiera  */
+
+.asesoria-financiera-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.descripcion-asesoria-financiera {
+    width: 100vw;
+}
+
+.descripcion-asesoria-financiera p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 400px;
+}
+
+
+ul {
+    width: 200px;
+}
+
+}
+
+@media screen and (max-width: 390px) {
+    .hero h5 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .descripcion-contabilidad p {
+        width: 310px;
+        margin-right: 0px;
+    }
+
+    .descripcion-impuestos p {
+        width: 310px;
+        margin-right: 0px;
+    }
+
+    .image-impuestos img {
+        margin-right: 0;
+        width: 350px;
+        margin-left: 0;
+    }
+
+    .descripcion-asesoria-financiera p {
+        width: 310px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        height: 87%;
+    }
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+.contabilidad-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-contabilidad img {
+    margin-right: 0;
+    width: 300px;
+    margin-left: 0;
+}
+
+
+.descripcion-contabilidad {
+    width: 100vw;
+}
+
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+}
+
+/* Impuestos servicios */
+
+.impuestos-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+.image-impuestos img {
+    margin-right: 0;
+    width: 350px;
+    margin-left: 0;
+}
+
+.descripcion-impuestos {
+    width: 100vw;
+}
+
+.descripcion-impuestos p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+}
+
+.descripcion-impuestos button {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 62px;
+}
+
+/* Asesoría financiera  */
+
+.asesoria-financiera-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.descripcion-asesoria-financiera {
+    width: 100vw;
+}
+
+.descripcion-asesoria-financiera p {
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+}
+
+
+
+
+ul {
+    width: 200px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        height: 87%;
+    }
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Contabilidad  */
+
+.contabilidad-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-contabilidad img {
+    margin-right: 0;
+    width: 300px;
+    margin-left: 0;
+}
+
+
+.descripcion-contabilidad {
+    width: 100vw;
+}
+
+.descripcion-contabilidad p {
+    margin-bottom: 52px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 310px;
+}
+
+/* Impuestos servicios */
+
+.impuestos-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+.image-impuestos img {
+    margin-right: 0;
+    width: 300px;
+    margin-left: 0;
+}
+
+.descripcion-impuestos {
+    width: 100vw;
+}
+
+.descripcion-impuestos p {
+    margin-bottom: 52px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 310px;
+}
+
+/* Asesoría financiera  */
+
+.asesoria-financiera-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-asesoria-financiera img {
+    margin-right: 0;
+    width: 300px;
+    margin-left: 0;
+}
+
+.descripcion-asesoria-financiera {
+    width: 100vw;
+}
+
+.descripcion-asesoria-financiera p {
+    margin-bottom: 52px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 310px;
+}
+
+
+ul {
+    width: 200px;
+}
+}
+
+@media screen and (max-width: 280px) {
+    .hero {
+        height: 90vh;
+    }
+
+    .hero h5 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    /* Contabilidad servicios */
+
+    .contabilidad-servicios {    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .image-contabilidad {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-contabilidad img {
+        width: 100px;
+        margin-left: 0;
+    }
+
+    .descripcion-contabilidad {
+        width: 100%;
+    }
+
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 14.416px;
+    }
+
+    .descripcion-contabilidad p {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 200px;
+    }
+
+    /* Impuestos servicios */
+
+    .impuestos-servicios {    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .image-impuestos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-impuestos img {
+        width: 100px;
+        margin-right: 0;
+    }
+
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 14.416px;
+    }
+
+    .descripcion-impuestos p {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 200px;
+    }
+
+    /* Asesoría financiera  */
+
+    .asesoria-financiera-servicios {    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .image-asesoria-financiera img {
+        width: 100px;
+        margin-right: 0;
+    }
+
+
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 14.416px;
+    }
+
+    .descripcion-asesoria-financiera p {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 200px;
+    }
+    
+    /* formulario */
+
+    form input {
+        width: 230px;
+    }
+
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+       /* padding-right: 30px;*/
+        padding-bottom: 14px;
+        /*padding-left: 30px;*/
+        /*margin-left: 15px;
+        margin-right: 15px;*/
+        text-align: center;
+        width: 254px;
+    }
+
+ul {
+    width: 150px;
+}
+}

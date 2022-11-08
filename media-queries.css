@@ -1,0 +1,3503 @@
+/* Media Queries */ 
+@media screen and (max-width: 2560px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 61px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 19.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+        margin-left: 102px;
+        margin-right: 102px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+        margin-left: 102px;
+        margin-right: 102px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+        margin-left: 102px;
+        margin-right: 102px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 19.416px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 35px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        width: 320px;
+        font-size: 18.40px;
+    }
+
+    .copyright {
+        text-align: center;
+        font: 15px 'Open Sans', sans-serif;
+        color: #5D7280;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 61px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 19.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 19.416px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 35px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        width: 320px;
+        font-size: 18.40px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 61px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 19.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 19.416px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 35px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        width: 320px;
+        font-size: 18.40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
+
+    ul {
+        width: 530px;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 61px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 19.416px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            margin-top: 24px;
+            padding-top: 14px;
+            padding-right: 35px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            width: 320px;
+            font-size: 18.416px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 61px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad { 
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 19.416px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 35px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        width: 320px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    ul {
+        width: 400px;
+    }
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 26.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            font-size: 18.416px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 66px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 26.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 24.416px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+            font-size: 18.416px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        /*justify-content: space-around;
+        align-items: center;*/
+        flex-wrap: wrap;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin: 40px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin: 50px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 35px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        width: 320px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    ul {
+        width: 300px;
+    }
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 16.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 66px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+    }
+    
+    .descripcion-contabilidad p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    /* 
+    
+    https://websitedemos.net/chartered-accountant-02/#
+    
+    */
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .amanda {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        /*padding-right: 35px;*/
+        padding-bottom: 14px;
+        /*padding-left: 20px;*/
+        width: 320px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 16.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            /*padding-right: 30px;*/
+            padding-bottom: 14px;
+            /*padding-left: 30px;*/
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 66px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-contabilidad p {
+        margin-bottom: 52px;
+        /*padding-left: 52px;
+        padding-right: 52px;*/
+        width: 100%;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 100%;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 100%;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+        font-size: 22px;
+    }
+    
+    .amanda {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 280px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+       /* padding-right: 30px;*/
+        padding-bottom: 14px;
+        /*padding-left: 30px;*/
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media (max-width: 280px) {
+    ul {
+        width: 150px;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 16.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            /*padding-right: 30px;*/
+            padding-bottom: 14px;
+            /*padding-left: 30px;*/
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 66px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-contabilidad p {
+        margin-bottom: 52px;
+        /*padding-left: 52px;
+        padding-right: 52px;*/
+        width: 220px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 220px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 220px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+        font-size: 22px;
+    }
+    
+    .amanda {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 230px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+       /* padding-right: 30px;*/
+        padding-bottom: 14px;
+        /*padding-left: 30px;*/
+        /*margin-left: 15px;
+        margin-right: 15px;*/
+        text-align: center;
+        width: 230px;
+    }
+
+
+
+}
+
+
+@media (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .hero {
+        color: var(--white);
+        font-size: 16.416px;
+        background-color: #7a7672;
+    }
+    
+    .hero h5 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero h2 {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    
+    .hero p {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    
+    .cotizacion {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            /*padding-right: 30px;*/
+            padding-bottom: 14px;
+            /*padding-left: 30px;*/
+    }
+    
+    
+    
+    .container {
+        background-color: blue;
+        height: 66px;
+    }
+    
+    
+    
+    .servicios h5 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .servicios h2 {
+        color: var(--black);
+        font-size: 16.416px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .servicios-de-Contabilidad {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .descripcion-contabilidad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    
+    .descripcion-contabilidad h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-contabilidad p {
+        margin-bottom: 52px;
+        /*padding-left: 52px;
+        padding-right: 52px;*/
+        width: 220px;
+    }
+    
+    .descripcion-contabilidad button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    
+    .Servicios-de-Impuestos {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .descripcion-impuestos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .descripcion-impuestos h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-impuestos p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 220px;
+    }
+    
+    .descripcion-impuestos button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .asesoria-Financiera {    
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .descripcion-asesoria-financiera {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    
+    
+    .descripcion-asesoria-financiera h3 {
+        text-align: center;
+        margin-bottom: 52px;
+        margin-top: 65px;
+        font-size: 17.5px;
+    }
+    
+    .descripcion-asesoria-financiera p {
+        text-align: justify;
+        margin-bottom: 52px;
+        /*padding-left: 22px;
+        padding-right: 22px;*/
+        width: 220px;
+    }
+    
+    .descripcion-asesoria-financiera button {
+            fill: var(--white);
+            color: var(--white);
+            background-color: var( --orange);
+            box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+            border-radius: 50px;
+            padding-top: 14px;
+            padding-right: 30px;
+            padding-bottom: 14px;
+            padding-left: 30px;
+            margin-bottom: 62px;
+    }
+    
+    
+    .testimonios-clientes {
+        color: var(--black);
+        font-size: 16.416px;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .testimonio-title h5 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .testimonio-title h2 {
+        text-align: center;
+        margin-bottom: 36px;
+        font-size: 22px;
+    }
+    
+    .amanda {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Amanda-lee p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Amanda-lee span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Amanda-lee .ceo {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    
+    .adam {
+        margin: 30px;
+        box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+        padding: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .Adam-cheise p {
+        font: 16px 'Opera Sans', sans-serif;
+        color: #5D7280;
+        margin-bottom: 20px;
+    }
+    
+    .Adam-cheise span {
+        color: #5D7280;
+        font: 13.68px 'Opera Sans', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .Adam-cheise .director {
+        font-size: .85rem;
+        display: block;
+    }
+    
+    .formulario {
+        color: #5D7280;
+        font: 13.68px 'Open Sans', sans-serif;
+        background-color: #000F24BD;
+        padding: 40px 20px;
+    }
+    
+    .cotizacion-formulario {
+        text-align: center;
+        color: #fff;
+        font: 23.712px Monserrat, sans-serif;
+    }
+    
+    form input {
+        background-color: #fafafa;
+        padding: 10.26px;
+        margin-top: 20px;
+        width: 230px;
+    }
+    
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cotizacion-gratis {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        margin-top: 20px;
+        padding-top: 14px;
+        padding-right: 30px;
+        padding-bottom: 14px;
+        padding-left: 30px;
+        /*margin-left: 15px;
+        margin-right: 15px;*/
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+}
+

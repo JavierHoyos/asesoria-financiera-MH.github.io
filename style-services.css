@@ -1,0 +1,375 @@
+:root {
+    --orange: #e66e2e; 
+    --white: #f7f8f8;
+    --black: #000F23;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 100vw;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--orange);
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header #toggler-service {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.hero {
+    background: url(/img/pexels-kampus-production-8441811.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: var(--white);
+    font-size: 26.416px;
+    background-color: #7a7672;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 54vh;
+}
+
+.cotizacion {
+    fill: var(--white);
+    color: var(--white);
+    background-color: var( --orange);
+    box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+    border-radius: 50px;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    font-size: 18.416px;
+}
+
+.container {
+background-color: blue;
+height: 61px;
+}
+
+/* Servicios */
+
+.servicios h5 {
+    color: var(--black);
+    font-size: 19.416px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.servicios h2 {
+    color: var(--black);
+    font-size: 26.416px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Contabilidad */
+
+.contabilidad-servicios {    
+    color: var(--black);
+    font-size: 16.416px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion-contabilidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-contabilidad img {
+    margin-left: 190px;
+}
+
+
+.descripcion-contabilidad h3 {
+    text-align: center;
+    margin-bottom: 52px;
+    margin-top: 65px;
+    font-size: 24.416px;
+}
+
+.descripcion-contabilidad p {
+    text-align: justify;
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.descripcion-contabilidad p {
+    color: #666;
+}
+
+.descripcion-contabilidad button {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        padding-top: 14px;
+        padding-right: 30px;
+        padding-bottom: 14px;
+        padding-left: 30px;
+        margin-bottom: 62px;
+        font-size: 18.416px;
+}
+
+
+
+/* Impuestos */
+
+.impuestos-servicios {    
+    color: var(--black);
+    font-size: 16.416px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion-impuestos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-impuestos img {
+    margin-right: 190px;
+}
+
+.descripcion-impuestos h3 {
+    text-align: center;
+    margin-bottom: 52px;
+    margin-top: 65px;
+    font-size: 24.416px;
+}
+
+.descripcion-impuestos p {
+    text-align: justify;
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.descripcion-impuestos p {
+    color: #666;
+}
+
+.descripcion-impuestos button {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        padding-top: 14px;
+        padding-right: 30px;
+        padding-bottom: 14px;
+        padding-left: 30px;
+        margin-bottom: 62px;
+        font-size: 18.416px;
+}
+
+
+/* Asesoría financiera */
+
+.asesoria-financiera-servicios {    
+    color: var(--black);
+    font-size: 16.416px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion-asesoria-financiera {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-asesoría-financiera img {
+    margin-left: 190px;
+}
+
+
+
+
+.descripcion-asesoria-financiera h3 {
+    text-align: center;
+    margin-bottom: 52px;
+    margin-top: 65px;
+    font-size: 24.416px;
+}
+
+.descripcion-asesoria-financiera p {
+    text-align: justify;
+    margin-bottom: 52px;
+    padding-left: 82px;
+    padding-right: 82px;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.descripcion-asesoria-financiera p {
+    color: #666;
+}
+
+.descripcion-asesoria-financiera button {
+        fill: var(--white);
+        color: var(--white);
+        background-color: var( --orange);
+        box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+        border-radius: 50px;
+        padding-top: 14px;
+        padding-right: 30px;
+        padding-bottom: 14px;
+        padding-left: 30px;
+        margin-bottom: 62px;
+        font-size: 18.416px;
+}
+
+
+/* Formulario */
+
+
+.formulario {
+    color: #5D7280;
+    font: 13.68px 'Open Sans', sans-serif;
+    background-color: #000F24BD;
+    padding: 40px 20px;
+}
+
+.cotizacion-formulario {
+    text-align: center;
+    color: #fff;
+    font: 23.712px Monserrat, sans-serif;
+}
+
+form input {
+    background-color: #fafafa;
+    padding: 10.26px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotizacion-gratis {
+    fill: var(--white);
+    color: var(--white);
+    background-color: var( --orange);
+    box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 35px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    width: 320px;
+    font-size: 18.40px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+ul {
+    margin-bottom: 20px;
+    width: 700px;
+}
+ul li {
+    list-style-type: circle;
+    color: #666;
+    text-align: justify;
+}
+
+.copyright {
+    text-align: center;
+    color: #666;
+}

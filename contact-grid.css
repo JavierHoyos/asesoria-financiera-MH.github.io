@@ -1,0 +1,25 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 49px 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header-contact header-contact header-contact"
+    "imagen-principal-contact imagen-principal-contact imagen-principal-contact"
+    "contact-details contact-details contact-details"
+    "address-contact address-contact address-contact"
+    "request-quote request-quote request-quote"
+    "copyright copyright copyright";
+}
+
+.header-contact { grid-area: header-contact; }
+
+.imagen-principal-contact { grid-area: imagen-principal-contact; }
+
+.contact-details { grid-area: contact-details; }
+
+.address-contact { grid-area: address-contact; }
+
+.request-quote { grid-area: request-quote; }
+
+.copyright { grid-area: copyright; }

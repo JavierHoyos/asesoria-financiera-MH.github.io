@@ -1,0 +1,29 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 49px 1fr  400px 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header-servicios header-servicios header-servicios"
+    "imagen-principal-servicios imagen-principal-servicios imagen-principal-servicios"
+    "servicios-ofrecidos servicios-ofrecidos servicios-ofrecidos"
+    "contabilidad-servicios contabilidad-servicios contabilidad-servicios"
+    "impuestos-servicios impuestos-servicios impuestos-servicios"
+    "asesoria-financiera-servicios asesoria-financiera-servicios asesoria-financiera-servicios"
+    "cotizacion-gratis-servicios cotizacion-gratis-servicios cotizacion-gratis-servicios";
+}
+
+.header-servicios { grid-area: header-servicios; }
+
+.imagen-principal-servicios { grid-area: imagen-principal-servicios; }
+
+.servicios-ofrecidos { grid-area: servicios-ofrecidos; }
+
+.contabilidad-servicios { grid-area: contabilidad-servicios; }
+
+.impuestos-servicios { grid-area: impuestos-servicios; }
+
+.asesoria-financiera-servicios { grid-area: asesoria-financiera-servicios; }
+
+.cotizacion-gratis-servicios { grid-area: cotizacion-gratis-servicios; }
+
