@@ -1,0 +1,1052 @@
+@media screen and (max-width: 3000px) {
+    .exceptional-service h6 {
+        width: 630px;
+        margin-top: 70px;
+    }
+
+    .exceptional-service h2 {
+        width: 630px;
+    }
+
+    .exceptional-service h4 {
+        width: 630px;
+    }
+
+    .exceptional-service p {
+        width: 630px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .exceptional-service h6 {
+        width: 630px;
+        margin-top: 70px;
+    }
+
+    .exceptional-service h2 {
+        width: 630px;
+    }
+
+    .exceptional-service h4 {
+        width: 630px;
+    }
+
+    .exceptional-service p {
+        width: 630px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .exceptional-service h6 {
+        width: 630px;
+        margin-top: 70px;
+    }
+
+    .exceptional-service h2 {
+        width: 630px;
+    }
+
+    .exceptional-service h4 {
+        width: 630px;
+    }
+
+    .exceptional-service p {
+        width: 630px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .exceptional-service h6 {
+        width: 630px;
+        margin-top: 70px;
+    }
+
+    .exceptional-service h2 {
+        width: 630px;
+    }
+
+    .exceptional-service h4 {
+        width: 630px;
+    }
+
+    .exceptional-service p {
+        width: 630px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 1024px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 914px;
+    }
+
+    .exceptional-service h2 {
+        width: 914px;
+    }
+
+    .exceptional-service h4 {
+        width: 914px;
+    }
+
+    .exceptional-service p {
+        width: 889px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 794px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 934px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 934px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 934px;
+}
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 427px;
+        height: 263.91px;
+    }
+
+    
+    .box-2 {
+        width: 427px;
+        height:  263.91px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler-service:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 980px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 870px;
+    }
+
+    .exceptional-service h2 {
+        width: 870px;
+    }
+
+    .exceptional-service h4 {
+        width: 870px;
+    }
+
+    .exceptional-service p {
+        width: 845px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 750px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 890px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 890px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 890px;
+}
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 405px;
+        height: 263.91px;
+    }
+
+    
+    .box-2 {
+        width: 405px;
+        height: 263.91px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 820px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 710px;
+    }
+
+    .exceptional-service h2 {
+        width: 710px;
+    }
+
+    .exceptional-service h4 {
+        width: 710px;
+    }
+
+    .exceptional-service p {
+        width: 685px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 710px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 730px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 730px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 730px;
+}
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 325px;
+        height: 270.13px;
+    }
+
+    
+    .box-2 {
+        width: 325px;
+        height: 270.13px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 600px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 658px;
+    }
+
+    .exceptional-service h2 {
+        width: 658px;
+    }
+
+    .exceptional-service h4 {
+        width: 658px;
+    }
+
+    .exceptional-service p {
+        width: 633px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 658px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 678px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 678px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 678px;
+}
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 299px;
+        height: 320.94px;
+    }
+
+    
+    .box-2 {
+        width: 299px;
+        height: 320.94px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 600px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 550px;
+    }
+
+    .exceptional-service h2 {
+        width: 550px;
+    }
+
+    .exceptional-service h4 {
+        width: 550px;
+    }
+
+    .exceptional-service p {
+        width: 550px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 550px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 530px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 530px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 530px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 550px;
+    }
+
+    
+    .box-2 {
+        width: 550px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 393px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 393px;
+    }
+
+    .exceptional-service h2 {
+        width: 393px;
+    }
+
+    .exceptional-service h4 {
+        width: 393px;
+    }
+
+    .exceptional-service p {
+        width: 393px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 393px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .accounting-services {
+        width: 393px;
+    }
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 393px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 393px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 393px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 383px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    
+    .box-2 {
+        width: 383px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 280px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 340px;
+    }
+
+    .exceptional-service h2 {
+        width: 340px;
+    }
+
+    .exceptional-service h4 {
+        width: 340px;
+    }
+
+    .exceptional-service p {
+        width: 340px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 340px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 320px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 320px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 320px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 340px;
+    }
+
+    
+    .box-2 {
+        width: 340px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 360px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 325px;
+    }
+
+    .exceptional-service h2 {
+        width: 325px;
+    }
+
+    .exceptional-service h4 {
+        width: 325px;
+    }
+
+    .exceptional-service p {
+        width: 325px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .img-description {
+        width: 325px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 265px;
+        height: 265px;
+    }
+
+    .accounting-services {
+        width: 375px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 305px;
+        text-align: center;
+    }
+    
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 305px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 305px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 325px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    
+    .box-2 {
+        width: 325px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 280px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 270px;
+    }
+
+    .exceptional-service h2 {
+        width: 270px;
+    }
+
+    .exceptional-service h4 {
+        width: 270px;
+    }
+
+    .exceptional-service p {
+        width: 270px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .exceptional-service p {
+        width: 250px;
+        height: 279.47px;
+        margin-bottom: 21.888px;
+    }
+
+    .img-description {
+        width: 270px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 210px;
+        height: 210px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        margin-top: 43px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .accounting-services h2 {
+        font-size: 25px;
+        width: 250px;
+    }
+    
+    
+.accounting-services p {
+    text-align: center;
+    width: 250px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box-1 {
+        width: 270px;
+    }
+
+    
+    .box-2 {
+        width: 270px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .hero h5 {
+        text-align: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exceptional-service {
+        width: 280px;
+        padding-right: 6px;
+        padding-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .exceptional-service h6 {
+        width: 230px;
+    }
+
+    .exceptional-service h2 {
+        width: 230px;
+    }
+
+    .exceptional-service h4 {
+        width: 230px;
+    }
+
+    .exceptional-service p {
+        width: 230px;
+        height: 179.47px;
+        margin-bottom: 1.888px;
+    }
+
+    .exceptional-service p {
+        width: 230px;
+        height: 279.47px;
+        margin-bottom: 21.888px;
+    }
+
+    .img-description {
+        width: 230px;
+        margin-bottom: 50px;
+    }
+
+    .img-description img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .accounting-services {
+        width: 208px;
+    }
+
+
+    .accounting-services h6 {
+        margin-bottom: 23px;
+        width: 210px;
+        text-align: center;
+    }
+
+    .accounting-services h2{
+        font-size: 15px;
+        width: 210px;
+    }
+    
+.accounting-services p {
+    text-align: center;
+    width: 210px;
+}
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box-1 {
+        width: 230px;
+    }
+
+    
+    .box-2 {
+        width: 230px;
+    }
+
+
+    .cotizacion-gratis-about {
+        width: 254px;
+    }
+}

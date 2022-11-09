@@ -1,0 +1,28 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 49px 1fr 1fr 1fr 1fr 1fr 1f;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "about about about"
+    "imagen-principal-about imagen-principal-about imagen-principal-about"
+    "description description description"
+    "description-2 description-2 description-2"
+    "boxes boxes boxes"
+    "form-quote form-quote form-quote"
+    "copyright copyright copyright";
+}
+
+.about { grid-area: about; }
+
+.imagen-principal-about { grid-area: imagen-principal-about; }
+
+.description { grid-area: description; }
+
+.description-2 { grid-area: description-2; }
+
+.boxes { grid-area: boxes; }
+
+.form-quote { grid-area: form-quote; }
+
+.copyright { grid-area: copyright; }

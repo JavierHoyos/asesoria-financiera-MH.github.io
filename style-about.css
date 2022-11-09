@@ -1,0 +1,270 @@
+:root {
+    --orange: #e66e2e; 
+    --white: #f7f8f8;
+    --black: #000F23;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    width: 100vw;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span {
+    color: var(--orange);
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header #toggler-service {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+/* Hero */
+
+.hero {
+    background: url(/img/pexels-kampus-production-8441811.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: var(--white);
+    font-size: 26.416px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 54vh;
+}
+
+/* description  */
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exceptional-service {
+    width: 630px;
+    padding-right: 90px;
+}
+
+.exceptional-service h6 {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #000F23;
+    margin-bottom: 13px;
+}
+
+.exceptional-service h2 {
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+    color: #000F23;
+    margin-bottom: 13px;
+}
+
+.exceptional-service h4 {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #000F23;
+    margin-bottom: 13px;
+}
+
+.exceptional-service p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #5D7280;
+    margin-bottom: 24px;
+}
+
+.img-description {
+    width: 430px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    box-shadow: 0 0 35PX 0 rgb(93 114 128 / 15%);
+}
+
+.img-description img {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+/* Accounting Services */
+
+.description-2 {
+    background: #f3eae8;
+    display: flex;
+    justify-content: center;
+}
+
+.accounting-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    padding: 10px;
+}
+
+.accounting-services h6 {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: #000F23;
+    margin-bottom: 13px;
+    margin-top: 30px;
+}
+
+.accounting-services h2 {
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+    color: #000F23;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.accounting-services p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #5D7280;
+    margin-bottom: 24px;
+}
+
+/*Cajas descriptivas */
+
+.boxes {
+    background: #f3eae8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.box-1 {
+    width: 550px;
+    background: #fff;
+    color:#5D7280;
+    margin: 25px;
+    padding: 35px 25px;
+    font: 15px "Open Sans", sans-serif;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.box-2 {
+    width: 550px;
+    background: #fff;
+    color: #5D7280;
+    margin: 25px;
+    padding: 35px 25px;
+    font: 15px "Open Sans", sans-serif;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+/* formulario */
+
+.formulario {
+    font: 13.68px 'Open Sans', sans-serif;
+    background-color: #000F24BD;
+    padding: 40px 20px;
+    color: #5D7280;
+}
+
+.cotizacion-formulario {
+    text-align: center;
+    color: #fff;
+    font: 23.712px Monserrat, sans-serif;
+}
+
+form input {
+    background-color: #fafafa;
+    padding: 10.26px;
+    margin-top: 20px;
+    width: 240px;
+}
+
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotizacion-gratis-about {
+    fill: var(--white);
+    color: var(--white);
+    background-color: var( --orange);
+    box-shadow: 0 0 20px 0 rgba(0,15,35,.12);
+    border-radius: 50px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 35px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    width: 280px;
+    font-size: 18.40px;
+}
+
+.copyright {
+    text-align: center;
+    font: 15px 'Open Sans', sans-serif;
+    color: #5D7280;
+}
