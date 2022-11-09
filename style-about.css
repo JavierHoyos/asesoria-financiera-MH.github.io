@@ -73,7 +73,7 @@ header .fa-bars {
 /* Hero */
 
 .hero {
-    background: url(/img/pexels-kampus-production-8441811.jpg) no-repeat center fixed;
+    background: url(pexels-kampus-production-8441811.jpg) no-repeat center fixed;
     background-size: cover;
     color: var(--white);
     font-size: 26.416px;
