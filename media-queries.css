@@ -346,11 +346,11 @@
         font-size: 18.40px;
     }
 
-    .copyright {
+    /*.copyright {
         text-align: center;
         font: 15px 'Open Sans', sans-serif;
         color: #5D7280;
-    }
+    }*/
 }
 
 @media screen and (max-width: 1440px) {
