@@ -38,6 +38,7 @@ header {
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     width: 100vw;
+    height: 105px;
 }
 
 header .logo {
@@ -212,4 +213,5 @@ form input {
     text-align: center;
     font: 15px 'Open Sans', sans-serif;
     color: #5D7280;
+    padding: 20px;
 }
