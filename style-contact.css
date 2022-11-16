@@ -38,6 +38,7 @@ header {
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     width: 100vw;
+    height: 105px;
 }
 
 header .logo {
@@ -289,6 +290,7 @@ form input {
 .copyright {
     text-align: center;
     color: #666;
+    padding: 20px;
 }
 
 
